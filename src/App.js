@@ -1,78 +1,86 @@
 import React, { useState } from 'react';
 
 export default function App() {
-  const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [showScore, setShowScore] = useState(false);
-  const [score, setScore] = useState();
+	const EITYPE = 'EI', MPTYPE = 'MP', TRTYPE = 'TR', JSTYPE = 'JS';
+	const [currentQuestion, setCurrentQuestion] = useState(0);
+	const [showScore, setShowScore] = useState(false);
+	const [score, setScore] = useState([
+		{
+			type: EITYPE,
+			score: 0,
+		},
+		{
+			type: MPTYPE,
+			score: 0,
+		},
+		{
+			type: TRTYPE,
+			score: 0,
+		},
+		{
+			type: JSTYPE,
+			score: 0,
+		}
+	]);
+
+	const answers = ["No", "Not really", "Not sure", "A little", "Yes"];
 
 	const questions = [
 		{
-			questionText: 'What is the capital of France?',
-			answerOptions: [
-				{ answerText: 'New York', isCorrect: false },
-				{ answerText: 'London', isCorrect: false },
-				{ answerText: 'Paris', isCorrect: true },
-				{ answerText: 'Dublin', isCorrect: false },
-			],
+			questionType: EITYPE,
+			questionText: 'Im enduring',
 		},
 		{
-			questionText: 'Who is CEO of Tesla?',
-			answerOptions: [
-				{ answerText: 'Jeff Bezos', isCorrect: false },
-				{ answerText: 'Elon Musk', isCorrect: true },
-				{ answerText: 'Bill Gates', isCorrect: false },
-				{ answerText: 'Tony Stark', isCorrect: false },
-			],
+			questionType: MPTYPE,
+			questionText: 'Im mental',
 		},
 		{
-			questionText: 'The iPhone was created by which company?',
-			answerOptions: [
-				{ answerText: 'Apple', isCorrect: true },
-				{ answerText: 'Intel', isCorrect: false },
-				{ answerText: 'Amazon', isCorrect: false },
-				{ answerText: 'Microsoft', isCorrect: false },
-			],
+			questionType: TRTYPE,
+			questionText: 'Im tactical',
 		},
 		{
-			questionText: 'How many Harry Potter books are there?',
-			answerOptions: [
-				{ answerText: '1', isCorrect: false },
-				{ answerText: '4', isCorrect: false },
-				{ answerText: '6', isCorrect: false },
-				{ answerText: '7', isCorrect: true },
-			],
+			questionType: JSTYPE,
+			questionText: 'Im justice',
 		},
 	];
 
-  const handleAnswerButtonClick = (isCorrect) => {
-    if (isCorrect) {
-      setScore(score + 1);
-    }
-    const nextQuestion = currentQuestion + 1;
-    if (nextQuestion < questions.length) {
-      setCurrentQuestion(nextQuestion);
-    } else {
-      setShowScore(true);
-    }
-    setCurrentQuestion(nextQuestion);
-  };
+	const updateScore = (type) => {
+		setScore(score.map(sc => {
+			if (sc.type === type){
+				return {...sc, score: sc.score + 1};
+			} return sc;
+		}));
+	};
+
+	const handleAnswerButtonClick = (type) => {
+		updateScore(type);
+		const nextQuestion = currentQuestion + 1;
+		if (nextQuestion < questions.length) {
+			setCurrentQuestion(nextQuestion);
+		} else {
+			setShowScore(true);
+		}
+		setCurrentQuestion(nextQuestion);
+	};
 
 	return (
 		<div className='app'>
 			{showScore ? (
-				<div className='score-section'>You scored {score} out of {questions.length}</div>
+				<div className='score-section'>{JSON.stringify(score)}</div>
 			) : (
 				<>
 					<div className='question-section'>
 						<div className='question-count'>
 							<span>Question {currentQuestion + 1}</span>/{questions.length}
 						</div>
-						<div className='question-text'>{questions[currentQuestion].questionText}</div>
+						<div className='question-text'>{questions[0].questionText}</div>
 					</div>
 					<div className='answer-section'>
-						{questions[currentQuestion].answerOptions.map((answerOption, index) => (
-              <button onClick={() => handleAnswerButtonClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
-            ))}
+						{answers.map((text) => (
+							<button onClick={() => handleAnswerButtonClick(questions[currentQuestion].questionType)}>
+								{text}
+							</button>
+						))}
 					</div>
 				</>
 			)}
