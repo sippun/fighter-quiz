@@ -65,11 +65,15 @@ export default function App() {
 	return (
 		<>
 		{/*flexbox align-items wasn't working for vertical centering*/}
-		<br/><br/><br/><br/><br/><br/><br/><br/>
+		<br/><br/><br/><br/>
+		<div className="text-wrapper">
+			<h2></h2>
+		</div>
+		<br/><br/><br/><br/>
     <div className='quiz-container'>
       <div className='quiz-app'>
         {showScore ? (
-          <div className='score-section'>{getType()}</div>
+          <div className='score-section'>Your type: {getType()}</div>
         ) : (
           <>
             <div className='question-section'>

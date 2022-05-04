@@ -1,0 +1,32 @@
+.home-container{
+  background-image: url(./background.jpg);
+  background-size: cover;
+  
+  margin-top: 50px;
+  height: 100vh;
+  text-align: center;
+}
+
+.home-text {
+  color: white;
+  text-shadow: 1px 1px 0 #000;
+}
+
+.button-link {
+  align-items: center;
+    border: none;
+    border-radius: 45px;
+    color: #fff;
+    background-color: #555e7d;
+    display: inline-flex;
+    font-weight: 500;
+    justify-content: center;
+    letter-spacing: .05em;
+    outline: 0;
+    padding: 25px 40px;
+    text-decoration: none;
+}
+
+.button-link:hover {
+  background-color: #252d4a;
+}

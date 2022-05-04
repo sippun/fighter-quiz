@@ -32,4 +32,10 @@ body {
 
 .pages {
   min-height: calc(100vh - 80px);
+  
+}
+
+.text-wrapper {
+  margin-left: 120px;
+  margin-right: 120px;
 }
