@@ -20,17 +20,27 @@ export const questions = [
   },
   {
     questionType: PMTYPE,
-    questionText: 'Are you interested in abstract ideas like math and philosophy',
+    questionText: 'Likes learning and studying',
     questionScore: true,
   },
   {
     questionType: EITYPE,
-    questionText: 'Explodes on opponent with decisive attacks',
+    questionText: 'Quickly capitalize on opportunities',
     questionScore: true,
   },
   {
     questionType: JSTYPE,
-    questionText: 'Im justice',
+    questionText: 'Goals are based on personal desires',
+    questionScore: true,
+  },
+  {
+    questionType: TRTYPE,
+    questionText: 'Goes with the flow',
+    questionScore: true,
+  },
+  {
+    questionType: JSTYPE,
+    questionText: 'Other things are more important than what I want',
     questionScore: false,
   },
 ];

@@ -65,11 +65,10 @@ export default function App() {
 	return (
 		<>
 		{/*flexbox align-items wasn't working for vertical centering*/}
-		<br/><br/><br/><br/>
+		<br/><br/><br/><br/><br/><br/>
 		<div className="text-wrapper">
-			<h2></h2>
+			<h2>How would you say these questions apply to you?</h2>
 		</div>
-		<br/><br/><br/><br/>
     <div className='quiz-container'>
       <div className='quiz-app'>
         {showScore ? (
