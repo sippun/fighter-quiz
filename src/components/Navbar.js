@@ -9,7 +9,7 @@ function NavBar() {
   return (
     <>
       <nav className="navbar">
-        <a className="nav-item">
+        <a className="nav-item" href="/#">
           <Link
             exact
             to="/"
@@ -20,7 +20,7 @@ function NavBar() {
             Home
           </Link>
         </a>
-        <a className="nav-item">
+        <a className="nav-item" href="/#">
           <Link
             exact
             to="/quiz"
@@ -31,7 +31,7 @@ function NavBar() {
             Quiz
           </Link>
         </a>
-        <a className="nav-item">
+        <a className="nav-item" href="/#">
           <Link
             exact
             to="/about"
@@ -42,7 +42,7 @@ function NavBar() {
             About
           </Link>
         </a>
-        <a className="nav-item">
+        <a className="nav-item" href="/#">
           <Link
             exact
             to="/types"
@@ -53,7 +53,7 @@ function NavBar() {
             Types
           </Link>
         </a>
-        <a className="nav-item">
+        <a className="nav-item" href="/#">
           <Link
             exact
             to="/contact"

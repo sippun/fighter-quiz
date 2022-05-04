@@ -1,16 +1,16 @@
 const EITYPE = 'EI', PMTYPE = 'PM', TRTYPE = 'TR', JSTYPE = 'JS';
 
 //questionScore sets the scoring direction, true for right, false for left
-//Example: EITYPE, false, sets scoring towards Enduring type
+//FALSE(EPTJ)/TRUE(IMRS)
 export const questions = [
   {
     questionType: EITYPE,
-    questionText: 'Prefer distance running to sprinting',
+    questionText: 'Stubborn and sees things to the end',
     questionScore: false,
   },
   {
     questionType: PMTYPE,
-    questionText: 'Overwhelm opponents with physical powers',
+    questionText: 'Rather rely on strength than smarts',
     questionScore: false,
   },
   {
@@ -20,7 +20,7 @@ export const questions = [
   },
   {
     questionType: PMTYPE,
-    questionText: 'Wins with better reads or mind games',
+    questionText: 'Are you interested in abstract ideas like math and philosophy',
     questionScore: true,
   },
   {

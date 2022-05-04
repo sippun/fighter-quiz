@@ -28,6 +28,7 @@
   width: 100%;
   position: relative;
   color: white;
+  text-align: left;
 }
 
 .question-count {
