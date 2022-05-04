@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { questions } from './questions.js';
+import './Quiz.css'
 
 export default function App() {
 	//types split left and right
@@ -62,6 +63,9 @@ export default function App() {
 	};
 
 	return (
+		<>
+		{/*flexbox align-items wasn't working for vertical centering*/}
+		<br/><br/><br/><br/><br/><br/><br/><br/>
     <div className='quiz-container'>
       <div className='quiz-app'>
         {showScore ? (
@@ -85,5 +89,6 @@ export default function App() {
         )}
       </div>
     </div>
+		</>
 	);
 }
