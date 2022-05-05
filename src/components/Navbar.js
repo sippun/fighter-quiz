@@ -42,7 +42,7 @@ function NavBar() {
             Types
           </Link>
         </a>
-        <a className="nav-item" >
+        <a className="nav-item" href="/#">
           <Link
             exact
             to="/about"
