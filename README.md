@@ -1,5 +1,7 @@
 # fighter-quiz
 
-## Anime website showcasing personality types inspired by anime, martial arts, and psychology types.
+## Showcasing fighter's personality types inspired by MBTI and anime
+
+
 
 [Visit](https://sippun.github.io/fighter-quiz/)
