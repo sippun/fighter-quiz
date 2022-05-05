@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fighter-quiz/static/css/main.563151c7.css",
+    "main.js": "/fighter-quiz/static/js/main.8c1fc0ef.js",
+    "static/js/787.a0822172.chunk.js": "/fighter-quiz/static/js/787.a0822172.chunk.js",
+    "static/media/background.jpg": "/fighter-quiz/static/media/background.b462580650a00ebcd48e.jpg",
+    "index.html": "/fighter-quiz/index.html",
+    "main.563151c7.css.map": "/fighter-quiz/static/css/main.563151c7.css.map",
+    "main.8c1fc0ef.js.map": "/fighter-quiz/static/js/main.8c1fc0ef.js.map",
+    "787.a0822172.chunk.js.map": "/fighter-quiz/static/js/787.a0822172.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.563151c7.css",
+    "static/js/main.8c1fc0ef.js"
+  ]
+}
