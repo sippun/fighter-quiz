@@ -7,8 +7,18 @@
   text-align: center;
 }
 
+.home-content{
+  max-width: 56rem;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .home-text {
   color: white;
+  
   text-shadow: 1px 1px 0 #000;
 }
 
