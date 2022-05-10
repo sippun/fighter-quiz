@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/fighter-quiz/static/css/main.563151c7.css",
-    "main.js": "/fighter-quiz/static/js/main.33e0aa5b.js",
+    "main.css": "/fighter-quiz/static/css/main.f31904f6.css",
+    "main.js": "/fighter-quiz/static/js/main.1a166b72.js",
     "static/js/787.a0822172.chunk.js": "/fighter-quiz/static/js/787.a0822172.chunk.js",
     "static/media/background.jpg": "/fighter-quiz/static/media/background.b462580650a00ebcd48e.jpg",
     "index.html": "/fighter-quiz/index.html",
-    "main.563151c7.css.map": "/fighter-quiz/static/css/main.563151c7.css.map",
-    "main.33e0aa5b.js.map": "/fighter-quiz/static/js/main.33e0aa5b.js.map",
+    "main.f31904f6.css.map": "/fighter-quiz/static/css/main.f31904f6.css.map",
+    "main.1a166b72.js.map": "/fighter-quiz/static/js/main.1a166b72.js.map",
     "787.a0822172.chunk.js.map": "/fighter-quiz/static/js/787.a0822172.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.563151c7.css",
-    "static/js/main.33e0aa5b.js"
+    "static/css/main.f31904f6.css",
+    "static/js/main.1a166b72.js"
   ]
 }
