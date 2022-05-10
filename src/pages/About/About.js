@@ -10,6 +10,7 @@ export default function About() {
 
   const handleClick = (type) => {
     switch (type) {
+      default: break;
       case EITYPE: setShowEI(!showEI);
       break;
       case PMTYPE: setShowPM(!showPM);

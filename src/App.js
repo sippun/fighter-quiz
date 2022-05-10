@@ -1,11 +1,11 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Quiz from './components/pages/Quiz/Quiz';
+import Quiz from './pages/Quiz/Quiz';
 import { Routes, Route } from "react-router-dom";
-import Home from './components/pages/Home/Home';
-import About from './components/pages/About/About';
-import Types from './components/pages/Types';
-import Contact from './components/pages/Contact';
+import Home from './pages/Home/Home';
+import About from './pages/About/About';
+import Types from './pages/Types/Types';
+import Contact from './pages/Contact';
 
 function App() {
   return (
