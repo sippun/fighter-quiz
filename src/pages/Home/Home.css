@@ -3,7 +3,7 @@
   background-size: cover;
   
   margin-top: 50px;
-  height: 100vh;
+  height: calc(100vh - 50px);
   text-align: center;
 }
 

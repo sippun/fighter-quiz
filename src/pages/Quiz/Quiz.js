@@ -63,9 +63,9 @@ export default function App() {
 	};
 
 	return (
-		<>
+		<div className='quiz-page-container'>
 		{/*flexbox align-items wasn't working for vertical centering*/}
-		<br/><br/><br/><br/><br/><br/>
+		<br/><br/><br/>
 		<div className="text-wrapper">
 			<h2>How would you say these questions apply to you?</h2>
 		</div>
@@ -92,6 +92,6 @@ export default function App() {
         )}
       </div>
     </div>
-		</>
+		</div>
 	);
 }
