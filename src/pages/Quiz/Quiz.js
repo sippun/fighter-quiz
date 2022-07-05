@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { questions } from './questions.js';
 import './Quiz.css'
 
@@ -72,7 +73,10 @@ export default function App() {
     <div className='quiz-container'>
       <div className='quiz-app'>
         {showScore ? (
-          <div className='score-section'>Your type: {getType()}</div>
+          <div className='score-section'>
+						Your type:&nbsp;
+						<Link className='score-link' to='/types'>{getType()}</Link>
+					</div>
         ) : (
           <>
             <div className='question-section'>

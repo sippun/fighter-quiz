@@ -29,6 +29,10 @@
   color: white;
 }
 
+.score-link {
+  color: #ffe77c;
+}
+
 /* QUESTION/TIMER/LEFT SECTION */
 .question-section {
   width: 100%;
