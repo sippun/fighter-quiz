@@ -6,6 +6,7 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Types from './pages/Types/Types';
 import Contact from './pages/Contact';
+import DetailPrototype from "./pages/Types/Details/DetailPrototype";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="quiz" element={<Quiz/>} />
             <Route path="about" element={<About/>} />
 						<Route path="types" element={<Types/>} />
+            <Route path="types/prototype" element={<DetailPrototype/>} />
             <Route path="contact" element={<Contact/>} />
             {/* routes for github pages */}
             <Route path="/fighter-quiz" element={<Home/>} />

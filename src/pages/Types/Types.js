@@ -1,11 +1,12 @@
-import './Types.css'
+import './Types.css';
+import { Link } from 'react-router-dom';
 
 export default function About() {
   return (
     <>
       <br/><br/><br/><br/>
       <div className="types-container">
-        <p>EMTJ - Itachi Uchiha</p>
+        <Link to="/types/prototype">EMTJ - Itachi Uchiha</Link>
         <p>EMTS - Joseph Joestar?</p>
         <p>EMRJ - Kyojuro Rengoku, Tsunade, Gaara</p>
         <p>EMRS - Hinata Hyuga</p>
