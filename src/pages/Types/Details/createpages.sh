@@ -1,7 +1,7 @@
 #!/bin/bash
 
-s=('EMTJ' 'EMTS' 'EMRJ' 'EMRS' 'EPTJ' 'EPTS' 'EPRJ' 'EPRS' 'IMTJ' 'IMTS' 'IMRJ' 'IMRS' 'IPTJ' 'IPTS' 'IPRJ' 'IPRS')
-for n in ${s[@]};
+types=('EMTJ' 'EMTS' 'EMRJ' 'EMRS' 'EPTJ' 'EPTS' 'EPRJ' 'EPRS' 'IMTJ' 'IMTS' 'IMRJ' 'IMRS' 'IPTJ' 'IPTS' 'IPRJ' 'IPRS')
+for type in ${types[@]};
 do
-  touch $n.js
+  touch $type.js
 done
