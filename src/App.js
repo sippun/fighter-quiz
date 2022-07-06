@@ -6,7 +6,6 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Types from './pages/Types/Types';
 import Contact from './pages/Contact';
-import DetailPrototype from "./pages/Types/Details/DetailPrototype";
 
 function App() {
   return (
