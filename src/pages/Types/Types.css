@@ -8,3 +8,12 @@
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
+
+.types-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.types-list li {
+ margin-right: 2rem;
+}

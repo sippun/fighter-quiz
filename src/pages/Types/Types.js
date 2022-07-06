@@ -11,7 +11,7 @@ export default function Types() {
       <br/><br/><br/><br/>
 
       <h1>Types</h1>
-      <ul>
+      <ul className="types-list">
         {details.map(({ name }) => (
           <li key={name}>
             <Link to={name}>{name}</Link>
