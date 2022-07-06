@@ -9,15 +9,15 @@ const descriptions = {
   "S": "Self",
 }
 
-function getDescription(type) {
-  let description = "TEST";
-  for(let i = 0; i < type.length; i++) {
-    let letter = type[i];
-    description.push(descriptions[letter]);
-    if(i < type.length - 1) description.push(", ");
-  }
-  return description;
-}
+// function getDescription(type) {
+//   let description = "TEST";
+//   for(let i = 0; i < type.length; i++) {
+//     let letter = type[i];
+//     description.push(descriptions[letter]);
+//     if(i < type.length - 1) description.push(", ");
+//   }
+//   return description;
+// }
 
 const details = [
   {
