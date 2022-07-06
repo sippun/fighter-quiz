@@ -1,13 +1,13 @@
-const descriptions = {
-  "E": "Enduring",
-  "I": "Intensive",
-  "M": "Mental",
-  "P": "Physical",
-  "T": "Tactical",
-  "R": "Reflexive",
-  "J": "Justice",
-  "S": "Self",
-}
+// const descriptions = {
+//   "E": "Enduring",
+//   "I": "Intensive",
+//   "M": "Mental",
+//   "P": "Physical",
+//   "T": "Tactical",
+//   "R": "Reflexive",
+//   "J": "Justice",
+//   "S": "Self",
+// }
 
 // function getDescription(type) {
 //   let description = "TEST";
