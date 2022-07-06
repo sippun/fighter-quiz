@@ -1,13 +1,16 @@
 import './Types.css';
 import { Link } from 'react-router-dom';
+import { getDetails } from './details';
 
 export default function About() {
+  const details = getDetails();
+
   return (
     <>
       <br/><br/><br/><br/>
       <div className="types-container">
         <Link to="/types/prototype">EMTJ - Itachi Uchiha</Link>
-        <p>EMTS - Joseph Joestar?</p>
+        <p>{details[1].name}-{details[1].description}</p>
         <p>EMRJ - Kyojuro Rengoku, Tsunade, Gaara</p>
         <p>EMRS - Hinata Hyuga</p>
         <p>EPTJ - Kaneki Ken</p>

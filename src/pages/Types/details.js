@@ -9,8 +9,8 @@ const descriptions = {
   "S": "Self",
 }
 
-const getDescription = (type) => {
-  let description = "";
+function getDescription(type) {
+  let description = "TEST";
   for(let i = 0; i < type.length; i++) {
     let letter = type[i];
     description.push(descriptions[letter]);
@@ -22,7 +22,9 @@ const getDescription = (type) => {
 const details = [
   {
     name: "EMTJ",
-    description: getDescription(this.name),
+    description: function() {
+      return getDescription(this.name);
+    },
     characters: [
       {
         name: "Itachi Uchiha",
@@ -32,7 +34,10 @@ const details = [
   },
   {
     name: "EMTS",
-    description: "Enduring, Mental, Tactical, Self",
+    // description: function() {
+    //   return getDescription("EMTS");
+    // },
+    description: "test",
     characters: [
       {
         name: "Joseph Joestar",
@@ -79,3 +84,7 @@ const details = [
     ],
   },
 ]
+
+export function getDetails() {
+  return details;
+}
