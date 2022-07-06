@@ -18,8 +18,7 @@ function App() {
             <Route path="/" element={<Home/>} />
             <Route path="quiz" element={<Quiz/>} />
             <Route path="about" element={<About/>} />
-						<Route path="types" element={<Types/>} />
-            <Route path="types/prototype" element={<DetailPrototype/>} />
+						<Route path="types/*" element={<Types/>} />
             <Route path="contact" element={<Contact/>} />
             {/* routes for github pages */}
             <Route path="/fighter-quiz" element={<Home/>} />

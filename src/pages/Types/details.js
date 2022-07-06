@@ -22,9 +22,7 @@ function getDescription(type) {
 const details = [
   {
     name: "EMTJ",
-    description: function() {
-      return getDescription(this.name);
-    },
+    description: "Enduring, Mental, Tactical, Justice",
     characters: [
       {
         name: "Itachi Uchiha",
@@ -37,7 +35,7 @@ const details = [
     // description: function() {
     //   return getDescription("EMTS");
     // },
-    description: "test",
+    description: "Enduring, Mental, Tactical, Self",
     characters: [
       {
         name: "Joseph Joestar",

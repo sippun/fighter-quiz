@@ -1,14 +1,28 @@
 import './Types.css';
-import { Link } from 'react-router-dom';
+import { Link, Routes, Route } from 'react-router-dom';
 import { getDetails } from './details';
+import DetailPage from './DetailPage';
 
-export default function About() {
+export default function Types() {
   const details = getDetails();
 
   return (
     <>
       <br/><br/><br/><br/>
-      <div className="types-container">
+
+      <h1>Types</h1>
+      <ul>
+        {details.map(({ name }) => (
+          <li key={name}>
+            <Link to={name}>{name}</Link>
+          </li>
+        ))}
+      </ul>
+      <hr />
+      <Routes>
+        <Route path=":detail/*" element={<DetailPage />} />
+      </Routes>
+      {/* <div className="types-container">
         <Link to="/types/prototype">EMTJ - Itachi Uchiha</Link>
         <p>{details[1].name}-{details[1].description}</p>
         <p>EMRJ - Kyojuro Rengoku, Tsunade, Gaara</p>
@@ -25,7 +39,7 @@ export default function About() {
         <p>IPTS - Aoi Todo</p>
         <p>IPRJ - Yuji Itadori, Whitebeard?</p>
         <p>IPRS - Naruto Uzumaki, Katsuki Bakugo</p>
-      </div>
+      </div> */}
     </>
   );
 }
