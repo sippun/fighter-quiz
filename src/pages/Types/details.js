@@ -81,7 +81,11 @@ const details = [
       }
     ],
   },
-]
+];
+
+export function getType(typeId) {
+  return details.find(({ name }) => name === typeId);
+}
 
 export function getDetails() {
   return details;

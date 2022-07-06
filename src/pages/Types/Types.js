@@ -20,7 +20,7 @@ export default function Types() {
       </ul>
       <hr />
       <Routes>
-        <Route path=":detail/*" element={<DetailPage />} />
+        <Route path="/:type" element={<DetailPage />} />
       </Routes>
       {/* <div className="types-container">
         <Link to="/types/prototype">EMTJ - Itachi Uchiha</Link>
