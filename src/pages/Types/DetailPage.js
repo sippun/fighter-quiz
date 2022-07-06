@@ -9,7 +9,13 @@ function DetailPage() {
     <div>
       <h1>{type}</h1>
       <p>{typeObj.description}</p>
-      <hr />
+      <ul>
+        {typeObj.characters.map(({ name }) => (
+          <li>{name}</li>
+        ))}
+
+      </ul>
+      
     </div>
   );
 }
