@@ -75,7 +75,7 @@ export default function App() {
         {showScore ? (
           <div className='score-section'>
 						Your type:&nbsp;
-						<Link className='score-link' to='/types'>{getType()}</Link>
+						<Link className='score-link' to={'/types/' + getType().join("")}>{getType()}</Link>
 					</div>
         ) : (
           <>
