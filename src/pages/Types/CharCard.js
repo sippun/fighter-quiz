@@ -16,7 +16,7 @@ function CharCard({name, id}) {
   return (
     <>
       <li>{name}</li>
-      <img src={charInfo.data.images.jpg.image_url}></img>
+      <img src={charInfo.data.images.jpg.image_url} alt={name + " image"}></img>
       <p>{charInfo.data.url}</p>
     </>
   );
