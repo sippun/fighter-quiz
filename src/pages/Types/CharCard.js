@@ -1,15 +1,15 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
-function CharCard({name, id}) {
+function CharCard({name, key}) {
   const [charInfo, setCharInfo] = useState(null);
   const baseURL = "https://api.jikan.moe/v4/characters/";
 
   useEffect(() => {
-    axios.get(baseURL + id + "/full").then((response) => {
+    axios.get(baseURL + key + "/full").then((response) => {
       setCharInfo(response.data);
     });
-  }, [id]);
+  }, [key]);
 
   if (!charInfo) return null;
 

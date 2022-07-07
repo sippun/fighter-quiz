@@ -11,6 +11,7 @@ function DetailPage() {
     <div>
       <h1>{type}</h1>
       <p>{typeObj.description}</p>
+      <h2>Characters</h2>
       <ul>
         {typeObj.characters.map(({ name, mal_id }) => (
           <CharCard name={name} id={mal_id} key={mal_id}/>
