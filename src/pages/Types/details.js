@@ -49,15 +49,15 @@ const details = [
     characters: [
       {
         name: "Kyojuro Rengoku",
-        mal_id: "",
+        mal_id: "151143",
       },
       {
         name: "Tsunade",
-        mal_id: "",
+        mal_id: "2767",
       },
       {
         name: "Gaara",
-        mal_id: "",
+        mal_id: "1662",
       },
     ],
   },
@@ -67,7 +67,7 @@ const details = [
     characters: [
       {
         name: "Hinata Hyuga",
-        mal_id: "",
+        mal_id: "1555",
       }
     ],
   },
@@ -77,7 +77,7 @@ const details = [
     characters: [
       {
         name: "Kaneki Ken",
-        mal_id: "",
+        mal_id: "87275",
       }
     ],
   },
@@ -87,7 +87,7 @@ const details = [
     characters: [
       {
         name: "Ippo Makunouchi",
-        mal_id: "",
+        mal_id: "15",
       }
     ],
   },
@@ -97,15 +97,15 @@ const details = [
     characters: [
       {
         name: "Takemichi Hanagaki",
-        mal_id: "",
+        mal_id: "171969",
       },
       {
         name: "Eren Yeager",
-        mal_id: "",
+        mal_id: "40882",
       },
       {
         name: "Nezuko Kamado",
-        mal_id: "",
+        mal_id: "146157",
       },
     ],
   },
@@ -115,23 +115,23 @@ const details = [
     characters: [
       {
         name: "Rock Lee",
-        mal_id: "",
+        mal_id: "306",
       },
       {
         name: "Might Guy",
-        mal_id: "",
+        mal_id: "307",
       },
       {
-        name: "Luffy",
-        mal_id: "",
+        name: "Monkey D. Luffy",
+        mal_id: "40",
       },
       {
         name: "Saitama",
-        mal_id: "",
+        mal_id: "73935",
       },
       {
         name: "Sakura Haruno",
-        mal_id: "",
+        mal_id: "145",
       },
     ],
   },
@@ -141,11 +141,11 @@ const details = [
     characters: [
       {
         name: "Shikamaru Nara",
-        mal_id: "",
+        mal_id: "2007",
       },
       {
         name: "Ochako Uraraka",
-        mal_id: "",
+        mal_id: "117917",
       },
     ],
   },
@@ -155,15 +155,15 @@ const details = [
     characters: [
       {
         name: "Kakashi Hatake",
-        mal_id: "",
+        mal_id: "85",
       },
       {
-        name: "Shinobu Kocho",
-        mal_id: "",
+        name: "Shinobu Kochou",
+        mal_id: "146736",
       },
       {
-        name: "Armin",
-        mal_id: "",
+        name: "Armin Arlert",
+        mal_id: "46494",
       },
     ],
   },
@@ -172,20 +172,20 @@ const details = [
     description: "Intensive, Mental, Reflexive, Justice",
     characters: [
       {
-        name: "Tanjiro Kamado",
-        mal_id: "",
+        name: "Tanjirou Kamado",
+        mal_id: "146156",
       },
       {
         name: "Ichigo Kurosaki",
-        mal_id: "",
+        mal_id: "5",
       },
       {
         name: "Usagi Tsukino",
-        mal_id: "",
+        mal_id: "2030",
       },
       {
         name: "Saber",
-        mal_id: "",
+        mal_id: "497",
       },
     ],
   },
@@ -195,15 +195,15 @@ const details = [
     characters: [
       {
         name: "Shigeo Kageyama",
-        mal_id: "",
+        mal_id: "109929",
       },
       {
         name: "Zenitsu Agatsuma",
-        mal_id: "",
+        mal_id: "146158",
       },
       {
         name: "Sasuke Uchiha",
-        mal_id: "",
+        mal_id: "13",
       },
     ],
   },
@@ -213,15 +213,15 @@ const details = [
     characters: [
       {
         name: "Izuku Midoriya",
-        mal_id: "",
+        mal_id: "117909",
       },
       {
         name: "Mikasa Ackerman",
-        mal_id: "",
+        mal_id: "40881",
       },
       {
         name: "Motoko Kusanagi",
-        mal_id: "",
+        mal_id: "1795",
       },
     ],
   },
@@ -230,8 +230,8 @@ const details = [
     description: "Intensive, Physical, Tactical, Self",
     characters: [
       {
-        name: "Aoi Todo",
-        mal_id: "",
+        name: "Aoi Toudou",
+        mal_id: "164484",
       },
     ],
   },
@@ -240,12 +240,12 @@ const details = [
     description: "Intensive, Physical, Reflexive, Justice",
     characters: [
       {
-        name: "Yuji Itadori",
-        mal_id: "",
+        name: "Yuuji Itadori",
+        mal_id: "163847",
       },
       {
         name: "Whitebeard",
-        mal_id: "",
+        mal_id: "2751",
       },
     ],
   },
@@ -255,11 +255,11 @@ const details = [
     characters: [
       {
         name: "Naruto Uzumaki",
-        mal_id: "",
+        mal_id: "17",
       },
       {
-        name: "Katsuki Bakugo",
-        mal_id: "",
+        name: "Katsuki Bakugou",
+        mal_id: "117911",
       },
     ],
   },
