@@ -23,6 +23,7 @@ export default function About() {
   }
 
   return (
+    <div className="about-background">
     <div className="about-container">
       <br/><br/><br/><br/>
         <p>
@@ -70,6 +71,7 @@ export default function About() {
           </div>
           : null }
         </div>
+    </div>
     </div>
   );
 }
