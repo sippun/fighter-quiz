@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/fighter-quiz/static/css/main.f31904f6.css",
-    "main.js": "/fighter-quiz/static/js/main.1a166b72.js",
+    "main.css": "/fighter-quiz/static/css/main.2b8089d5.css",
+    "main.js": "/fighter-quiz/static/js/main.ab50a16f.js",
     "static/js/787.a0822172.chunk.js": "/fighter-quiz/static/js/787.a0822172.chunk.js",
-    "static/media/background.jpg": "/fighter-quiz/static/media/background.b462580650a00ebcd48e.jpg",
+    "static/media/background.png": "/fighter-quiz/static/media/background.f78e3f051e3f8744b81f.png",
+    "static/media/background.jpg": "/fighter-quiz/static/media/background.f6c4fcd9fe4cd04e9fca.jpg",
     "index.html": "/fighter-quiz/index.html",
-    "main.f31904f6.css.map": "/fighter-quiz/static/css/main.f31904f6.css.map",
-    "main.1a166b72.js.map": "/fighter-quiz/static/js/main.1a166b72.js.map",
+    "main.2b8089d5.css.map": "/fighter-quiz/static/css/main.2b8089d5.css.map",
+    "main.ab50a16f.js.map": "/fighter-quiz/static/js/main.ab50a16f.js.map",
     "787.a0822172.chunk.js.map": "/fighter-quiz/static/js/787.a0822172.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f31904f6.css",
-    "static/js/main.1a166b72.js"
+    "static/css/main.2b8089d5.css",
+    "static/js/main.ab50a16f.js"
   ]
 }
